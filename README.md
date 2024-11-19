@@ -22,3 +22,10 @@ It incorporates secure user authorization, transaction management, and clear err
 - **Platform**: Cross-platform (Windows/Linux/MacOS)<br>
 - **JCalendar library<br>
 - **Sql database<br>
+
+<br>
+Contact<br>
+For questions or suggestions, contact:<br>
+
+Email: pramodsnz01@gmail.com<br>
+GitHub: https://github.com/Pramodsnz01<br>
