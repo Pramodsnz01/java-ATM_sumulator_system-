@@ -62,47 +62,62 @@ ATM-Simulator-System/
 
 ---
 
-## 💻 Setup Instructions
-
-### 1. Clone the Repository
-```bash
+💻 Setup Instructions
+1. Clone the Repository
+bash
+Copy
+Edit
 git clone https://github.com/Pramodsnz01/ATM-Simulator-System.git
 2. Open in NetBeans
 Launch NetBeans IDE
 
-Open the project folder
+Open the cloned project folder
 
 3. Configure the Database
-Use MySQL or any compatible SQL tool
+Ensure MySQL is installed and running
 
-Import the SQL script from:
+Import the SQL script located at:
 
 pgsql
 Copy
 Edit
 /sql/atm_database.sql
-4. Add External Library
-Add jcalendar.jar from the lib/ folder to your project libraries in NetBeans
+💡 You can use tools like phpMyAdmin, MySQL Workbench, or the command line to import the file.
 
-5. Run the Application
-Use one of the default credentials below to log in:
+4. Add JCalendar Library
+In NetBeans:
+Right-click your project → Properties → Libraries → Add JAR/Folder
 
-txt
+Select the JAR file from:
+
+bash
 Copy
 Edit
-Admin Login:
+/lib/jcalendar-x.x.jar
+5. Run the Application
+Use the following sample credentials to log in:
+
+🔐 Admin Login
 Username: admin
+
 Password: admin123
 
-Cashier Login:
+💼 Cashier Login
 Username: cashier
+
 Password: cashier123
-📷 Screenshots (Optional)
-<!-- Add images like: ![Login Page](screenshots/login.png) ![Admin Panel](screenshots/admin-panel.png) -->
+
+ 
+markdown
+Copy
+Edit
+![Login Page](screenshots/login.png)
+![Admin Panel](screenshots/admin-panel.png)
 👤 Author
 Pramod Singh
 📧 Email: pramodsnz01@gmail.com
 🌐 GitHub: Pramodsnz01
 
 📄 License
-This project is licensed under the MIT License — see the LICENSE file for details.
+This project is licensed under the MIT License.
+See the LICENSE file for more information.
