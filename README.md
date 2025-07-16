@@ -49,25 +49,22 @@ The **ATM Simulator System** is a Java-based desktop application developed using
 
 ATM-Simulator-System/
 │
-├── src/ # Source files
-│ ├── Login.java
-│ ├── AdminPanel.java
-│ ├── CashierPanel.java
-│ ├── TransactionHandler.java
-│ └── ...
+├── src/                  # Source files
+│   ├── Login.java
+│   ├── AdminPanel.java
+│   ├── CashierPanel.java
+│   ├── TransactionHandler.java
+│   └── ...              # Other source files
 │
-├── lib/ # Libraries
-│ └── jcalendar-x.x.jar
+├── lib/                  # External libraries
+│   └── jcalendar-x.x.jar
 │
-├── sql/ # Database dump
-│ └── atm_database.sql
+├── sql/                  # Database SQL dump
+│   └── atm_database.sql
 │
-├── README.md
-└── LICENSE
+├── README.md             # Project documentation
+└── LICENSE               # License file
 
-yaml
-Copy
-Edit
 
 ---
 
