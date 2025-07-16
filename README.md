@@ -44,10 +44,11 @@ The **ATM Simulator System** is a Java-based desktop application developed using
 | Date Picker     | JCalendar (Swing component)|
 
 ---
-
-## 📁 Project Structure
-
- ATM-Simulator-System/
+📁 Project Structure
+plaintext
+Copy
+Edit
+ATM-Simulator-System/
 ├── src/                    # Source files
 │   ├── Login.java
 │   ├── AdminPanel.java
@@ -63,7 +64,6 @@ The **ATM Simulator System** is a Java-based desktop application developed using
 │
 ├── README.md              # Project documentation
 └── LICENSE                # License file
-
 ---
 
 ## 💻 Setup Instructions
