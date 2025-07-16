@@ -1,117 +1,102 @@
 # 🏧 ATM Simulator System
 
-The **ATM Simulator System** is a Java-based desktop application developed using **NetBeans** that simulates core ATM operations. It features secure login, admin and cashier modules, transaction tracking, and user management — making it a great learning project for banking and software systems.
+A Java-based desktop application simulating core ATM functionalities. This project is developed using **NetBeans** and **MySQL**, offering secure login for Admin and Cashier roles, transaction handling, and user management features.
 
 ---
 
-## 📌 Key Features
+## 🚀 Features
 
 ### 🔐 Login System
 - Role-based login (Admin / Cashier)
-- Secure authentication using credentials
+- Secure and simple authentication
 
 ### 👨‍💼 Admin Panel
-- Create New User
-- Edit User Details
-- Delete User
-- View All Users
-- View All Transactions
-- Logout
+- Create, edit, and delete users
+- View transaction history
+- Manage system access
 
-### 🧾 Cashier Panel
+### 💼 Cashier Panel
 - Fast Cash Withdrawal
-- Custom Withdrawal
+- Withdraw Custom Amount
 - Deposit Funds
 - Account-to-Account Transfer
 - Balance Enquiry
-- Logout
 
-### ✅ Other Functionalities
-- Transaction limits per day
-- Input validation and user-friendly error messages
-- Clear and intuitive GUI
+### ⚙️ Additional
+- Daily withdrawal limits
+- Error handling (e.g., insufficient funds, invalid input)
+- Clean and interactive GUI
+
+---
+
+## 🛠️ Tech Stack
+
+| Tool             | Purpose                       |
+|------------------|-------------------------------|
+| Java (Swing)     | Desktop application GUI       |
+| NetBeans         | Development IDE               |
+| MySQL            | Relational database backend   |
+| JCalendar        | Date picker for transactions  |
 
 ---
 
-## 🛠️ Technologies Used
+## 📁 Project Structure
 
-| Component       | Details                    |
-|----------------|----------------------------|
-| Language        | Java (JDK 8+)              |
-| IDE             | NetBeans                   |
-| GUI Framework   | Java Swing                 |
-| Database        | MySQL                      |
-| Date Picker     | JCalendar (Swing component)|
-
----
-📁 Project Structure
-plaintext
-Copy
-Edit
+```plaintext
 ATM-Simulator-System/
-├── src/                    # Source files
+├── src/                    # Java source files
 │   ├── Login.java
 │   ├── AdminPanel.java
 │   ├── CashierPanel.java
 │   ├── TransactionHandler.java
-│   └── ...                # Other Java files
+│   └── ...                # Additional classes
 │
 ├── lib/                   # External libraries
 │   └── jcalendar-x.x.jar
 │
-├── sql/                   # Database SQL dump
+├── sql/                   # SQL database setup
 │   └── atm_database.sql
 │
-├── README.md              # Project documentation
-└── LICENSE                # License file
----
-
-## 💻 Setup Instructions
-
-### 1. Clone the Repository
-```bash
+├── README.md              # This documentation file
+└── LICENSE                # Open-source license
+🧪 Getting Started
+1. Clone the Repository
+bash
+Copy
+Edit
 git clone https://github.com/Pramodsnz01/ATM-Simulator-System.git
 2. Open in NetBeans
 Launch NetBeans IDE
 
 Open the project folder
 
-3. Configure the Database
-Use MySQL or any compatible SQL tool
-
-Import the SQL script from:
+3. Configure MySQL Database
+Import the SQL file located at:
 
 pgsql
 Copy
 Edit
 /sql/atm_database.sql
-4. Add External Library
-Add jcalendar.jar from the lib/ folder to your project libraries in NetBeans
+4. Add JCalendar Library
+Go to NetBeans → Project Properties → Libraries → Add JAR/Folder → Select jcalendar-x.x.jar from /lib/
 
-5. Run the Application
-Use one of the default credentials below to log in:
+5. Run the App
+Sample Credentials:
 
-txt
+text
 Copy
 Edit
-Admin Login:
+Admin
 Username: admin
 Password: admin123
 
-Cashier Login:
+Cashier
 Username: cashier
 Password: cashier123
-
-👤 Author
+👨‍💻 Author
 Pramod Singh
 📧 Email: pramodsnz01@gmail.com
-🌐 GitHub: Pramodsnz01
+🌐 GitHub: github.com/Pramodsnz01
 
 📄 License
-This project is licensed under the MIT License — see the LICENSE file for details.
-
-🌟 Support
-If you like this project, consider giving it a ⭐ on GitHub!
-
-
-
+This project is licensed under the MIT License.
