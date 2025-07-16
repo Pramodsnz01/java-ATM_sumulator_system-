@@ -59,12 +59,17 @@ ATM-Simulator-System/
 │
 ├── README.md              # This documentation file
 └── LICENSE                # Open-source license
-🧪 Getting Started
+
+---
+
+### 🧪 Getting Started
 1. Clone the Repository
 bash
 Copy
 Edit
 git clone https://github.com/Pramodsnz01/ATM-Simulator-System.git
+
+
 2. Open in NetBeans
 Launch NetBeans IDE
 
@@ -77,6 +82,8 @@ pgsql
 Copy
 Edit
 /sql/atm_database.sql
+
+
 4. Add JCalendar Library
 Go to NetBeans → Project Properties → Libraries → Add JAR/Folder → Select jcalendar-x.x.jar from /lib/
 
@@ -93,10 +100,15 @@ Password: admin123
 Cashier
 Username: cashier
 Password: cashier123
-👨‍💻 Author
+
+---
+
+### 👨‍💻 Author
 Pramod Singh
 📧 Email: pramodsnz01@gmail.com
 🌐 GitHub: github.com/Pramodsnz01
 
-📄 License
+---
+
+###📄 License
 This project is licensed under the MIT License.
