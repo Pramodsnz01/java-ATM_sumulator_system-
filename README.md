@@ -61,14 +61,14 @@ ATM-Simulator-System/
 └── LICENSE                # Open-source license
 
 ---
-
+```
 # 🚀 Quick Start
 
 ### 1. Clone the Repository
 ```bash
 git clone https://github.com/Pramodsnz01/ATM-Simulator-System.git
-```
 
+```
 ### 2. Open in NetBeans
 - Launch **NetBeans IDE**
 - Open the cloned project folder
